@@ -11,7 +11,7 @@ function btnHandler(){
   const color = getRandomHexColor();
   console.log(color);
   bodyClass.style.backgroundColor = color;
-  colorSpan.style.color = color;
+  colorSpan.textContent = color;
 }
 btn.addEventListener('click', btnHandler)
 
